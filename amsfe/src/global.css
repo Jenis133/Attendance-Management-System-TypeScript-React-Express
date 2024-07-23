@@ -1,0 +1,98 @@
+body{
+    background-color: #EEF8FF !important;
+    margin: 0;
+}
+#root {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+} 
+.css-zxdg2z {
+    min-width: 0;
+    flex-basis: 0;
+    max-width: calc(100%);
+}
+.css-zxdg2z
+/* dashboard */
+.teacherDashboard{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(239,249,255,1) 0%, rgba(237,248,255,1) 100%, rgba(0,212,255,1) 100%);
+/* min-height: 100vh; */
+}
+.TDashboardOngoingCourses{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap,
+    
+}
+
+
+/* change password */
+.tChangePassword{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(239,249,255,1) 0%, rgba(237,248,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+/* logout */
+
+.TLogout{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(239,249,255,1) 0%, rgba(237,248,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+/* message */
+.teacherMessages{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(239,249,255,1) 0%, rgba(237,248,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+.fieldRow{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.TMbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.TMastrick{
+ color:red;
+}
+
+/* report */
+.teacherReport{
+    /* background: rgb(2,0,36); */
+background: linear-gradient(90deg,  rgba(239,249,255,1) 0%, rgba(237,248,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+/* Subject */
+.SubjectAddButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+  /* Admin Dashboard */
+
+.admindashboard{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(239,249,255,1) 0%, rgba(237,248,255,1) 100%, rgba(0,212,255,1) 100%);
+min-height: 100vh;
+width:100%;
+}
+
+/* Media queries for responsiveness */
+
+/* *******User Profile Detail****************** */
+.user-profile-container{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height:82.5vh;
+}
+
+
+

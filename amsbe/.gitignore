@@ -1,0 +1,6 @@
+node_modules
+.env
+dist
+backup.txt
+package-lock.json
+README.md
